@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins !important;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 1440px;
+  height: 102px;
+  object-fit: cover;
+}
+.sow-header{
+  display: flex;
+}
+.profile-upload{
+  text-align: center;
+  margin-top: 5%;
+}
+.image-2-icon {
+  top: 157px;
+  left: 691px;
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+}
+.file-upload-parent {
+  border-radius: 14px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 59px 115px;
+  font-size: var(--font-size-5xl);
+  color: #000;
+  margin: auto;
+  width: fit-content;
+} 
+.sow-form{
+  text-align: center;
+}
+.upload-btn{
+  margin: 2%;
+  background-color: #00d415;
+  padding: 12px 65px;
+  border: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 5px;
+}
+.sow-header{
+  background-image: url(sow-header.svg);
+  background-size: cover;
+  padding: 20px;
+}
+.workiy-logo-white-1-icon{
+    width: auto;
+    height: 50px;
+}
+.sow-header > div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.head-txt{
+  color: white;
+  margin-left: 25px;
+  font-size: 25px;
+}
+.profile-upload-child{
+  position: absolute;
+    top: 15.5px;
+    left: 266.5px;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1px;
+    height: 64px;
+}
+.sow-header1{
+  margin-right: 25px;
+}
+.sow-header2{
+  border-left: 2px solid white;
+}
+.sow-footer{
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1%;
+}
+/* .file-upload-parent input{
+  background-color: #e0e0e0;
+    border: 1px solid #b2b2b2;
+    padding: 10px 64px;
+    border-radius: 10px;
+} */
+.upload-text{
+  font-size: 24px;
+    font-weight: bold;
+}
+/*  Result*/
+.sow-result-btn > a{
+  background-color: #00d415;
+  padding: 15px 65px;
+  border: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 5px;
+text-decoration:none;
+
+}
+.sow-result-btn{
+text-align:center;
+margin-top: 15%;
+}
+.output-text{
+  border: 2px solid grey;
+    padding: 3%;
+    height: auto;
+}
+.sow-result {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.sow-result2{
+  width: 45%;
+  margin-left: 2%;
+}
+.sow-result1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+  max-width:100% !important;
+}
+.sow-main-block{
+  margin: 10% 0;
+}
+.no-file-choosen a:hover,.no-file-choosen a{
+  text-decoration:none;
+  color:white;
+
+}
+.upload-btn:hover,.sow-result-btn a:hover{
+  /* background:#D0D0E4; */
+  background:#182978;
+}
+.result-subtext{
+    font-weight: bold;
+    font-size: 20px;
+}
